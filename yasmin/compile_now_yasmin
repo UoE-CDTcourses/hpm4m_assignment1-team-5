@@ -1,0 +1,17 @@
+#!/bin/bash
+
+
+## Load the required modules
+module load mpt
+module load gcc
+
+## compile
+
+
+## compile with MPI:
+mpicxx exercise2_yasmin.cpp  -o ex2_yasminexe
+
+## remove object files if there is any!:
+# rm *.mod
+# rm *.o
+
